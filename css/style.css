@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    color:inherit;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header{
+    background-color: #FFFFFF;
+    height:100px;
+    color: #015A75;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{  /*IRPROPIEDADES*/
+    margin-top:35px;
+    margin-left: 5%;
+    font-size:35px;
+}
+
+.NavBar{  /*NAVEGACION*/
+    display:flex;
+    margin-top: 50px;
+
+}
+
+.buttons{
+    font-size: 20px;
+    margin-left:5rem; 
+    
+}
+
+.ncontacto{ /*WHATSAPP*/
+    margin-top: 45px;
+    margin-right:5%;
+    font-size:25px;
+}
+
+/*header*/
+
+/*main*/
+.cuerpo{
+    background-color: #034574;
+    height: 100vh;
+}
+
+/*hero buscador*/
+.hero{ 
+    background: url("/img/HeroImage2.jpg") no-repeat center/cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
+.contbuscador{
+    margin-left: 32%;  
+}
+.buscador{
+    height: 50px;
+    width: 50em;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.botonBuscar{
+    padding: 8px;
+    border-radius: 5px;
+    border:0.5px solid black;
+    background-color: #255d85fb;
+    color:#FFFFFF;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.botonera{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 600px ;
+    
+}
+
+.opcion_buscar{
+    padding: 8px;
+    background-color: #255d85fb ;
+    font-size: 25px;
+    font-family:'Cinzel', serif ;
+    border-radius: 8px;
+    color: #FFFFFF
+
+}
+
+
+
